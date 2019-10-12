@@ -78,7 +78,7 @@ var config = {
 				})
 			},
 			{
-				test:/\.(gif|png|jpg|woff|svg|eot|ttf).??.*$/, 
+				test:/\.(gif|png|jpg|jpeg|woff|svg|eot|ttf).??.*$/, 
 				loader: 'url-loader?limit=100&name=resource/[name].[ext]'
 			},
 			{

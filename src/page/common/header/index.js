@@ -40,11 +40,11 @@ var header = {
 	// 实现搜索提交的方法
 	searchSubmit: function(){
 		//对关键字去空白字符处理
-		var keyword = $.trim($('#search-btn').val());
+		var keyword = $.trim($('#search-input').val());
 		console.log("keyword = ", keyword)
 		// 如果提交的搜索的时候有keyword，跳转到list页
 		if(keyword){
-			alert("哈哈😄");
+			
 			window.location.href = './list.html?keyword=' + keyword;
 		}else{
 			alert("🌹");
