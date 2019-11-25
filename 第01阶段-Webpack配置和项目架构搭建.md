@@ -442,6 +442,10 @@ url-loader  --save-dev
 
 9、执行cnpm install webpack-dev-server  --save-dev
 
+10、sudo cnpm install hogan.js  --save
+
+11、sudo cnpm install  font-awesome --save + 回车
+
 ERROR + 红色
 
 ======================================================

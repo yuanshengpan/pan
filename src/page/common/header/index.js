@@ -41,13 +41,10 @@ var header = {
 	searchSubmit: function(){
 		//对关键字去空白字符处理
 		var keyword = $.trim($('#search-input').val());
-		console.log("keyword = ", keyword)
 		// 如果提交的搜索的时候有keyword，跳转到list页
 		if(keyword){
-			
 			window.location.href = './list.html?keyword=' + keyword;
 		}else{
-			alert("🌹");
 			//如果keyword为空，直接返回首页
 			_mm.goHome();
 		}
